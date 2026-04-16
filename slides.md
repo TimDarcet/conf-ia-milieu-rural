@@ -18,10 +18,10 @@ style: |
 
 # L'intelligence artificielle
 
-### Ce que c'est vraiment, à quoi ça sert, et ce que ça change pour vous
+<!-- ### Ce que c'est vraiment, à quoi ça sert, et ce que ça change pour vous -->
 
 Timothée Darcet
-Chercheur en IA — FAIR (Meta), Paris
+Chercheur - FAIR (Meta), Paris
 
 <!--
 ~30 sec. Se présenter rapidement et lancer.
@@ -35,13 +35,10 @@ Chercheur en IA — FAIR (Meta), Paris
 - Thèse entre **FAIR Paris** et **INRIA Grenoble**
   - Apprentissage auto-supervisé (DINOv2)
   - Compréhension des vision transformers
-- Avant : **École polytechnique**, **ENS** (master MVA)
+- Avant : École polytechnique, ENS (master MVA)
 
-Je travaille sur les **grands modèles de langage** — les technologies derrière ChatGPT, Claude, etc.
+Je travaille sur les **grands modèles de langage** (LLM) - les technologies derrière ChatGPT, Claude, etc.
 
-<!--
-~1 min. Poser sa crédibilité sans en faire trop.
--->
 
 ---
 
@@ -71,9 +68,6 @@ Honnêtement ? Il n'y en a pas de bonne.
 **Retenir :** « IA » comme argument de vente &rarr; méfiance.
 C'est devenu un buzzword. Ce qui compte, c'est **ce que ça fait concrètement**.
 
-<!--
-~1 min 30. Planter le décor : on ne va pas se raconter des histoires.
--->
 
 ---
 
@@ -90,19 +84,19 @@ Et pour ça, un peu d'histoire
 
 ---
 
-# 1956 — Dartmouth
+# 1956 - Dartmouth
 Quelques chercheurs se réunissent pour un été au Dartmouth College.
 
 But : la machine intelligente. Il faut un nom.
 
 Cybernétique ? Théorie des automates ? Traitement de l'information complexe ?
 
-**John McCarthy propose « Artificial Intelligence ».** Le nom reste.
+**McCarthy propose « Artificial Intelligence ».**
 
 > *« What came out of Dartmouth? I think the main thing was the concept of artificial intelligence as a branch of science. »*
-> — John McCarthy
+> - John McCarthy
 
-![bg left:40%](image-5.png)
+![bg left:37%](image-5.png)
 <!--
 C'est la première fois qu'on parle d'IA
 
@@ -119,8 +113,8 @@ Joseph Weizenbaum crée **ELIZA** : un programme qui imite un psychothérapeute.
 
 En fait: ELIZA ne comprend rien. Elle reformule en questions.
 
-> *— Je me sens triste.*
-> *— Pourquoi vous sentez-vous triste ?*
+> *- Je me sens triste.*
+> *- Pourquoi vous sentez-vous triste ?*
 
 Les gens étaient convaincus de parler à quelqu'un d'intelligent. 
 
@@ -141,7 +135,7 @@ L'IA a connu **des cycles d'enthousiasme et de déception** :
 
 À chaque cycle, les promesses dépassent la réalité, la déception suit.
 
-On est dans une phase d'enthousiasme en ce moment. L'histoire invite à la prudence.
+<!-- On est dans une phase d'enthousiasme en ce moment. L'histoire invite à la prudence. -->
 
 <!--
 A une époque, les startups préféraient pas dire "intelligence artificielle", ou "robotique" parce que ils avaient l'air d'illuminés qui promettent de la science-fiction impossible. Personne investit dans un illuminé
@@ -206,11 +200,12 @@ Ce qui a changé :
 ![bg right:37.94%](image-2.png)
 <!--
 ~1 min. Pas besoin de rentrer dans les détails techniques.
+insiste sur "vaguement"
 -->
 
 ---
 
-# 2012 — AlexNet : le déclic
+# 2012 - AlexNet : le déclic
 
 Un réseau de neurones écrase la compétition sur la reconnaissance d'images.
 
@@ -220,42 +215,30 @@ Après : tout le monde passe aux réseaux de neurones.
 C'est le début de la révolution actuelle de l'IA.
 
 ![bg left ](image-3.png)
-<!-- ![bg left](image-20.png) -->
----
-
-# The Bitter Lesson (leçon amère)
-
-Richard Sutton, 2019 :
-
-> *Les méthodes qui gagnent à long terme sont celles qui savent exploiter le plus de calcul et le plus de données — pas les plus ingénieuses.*
-
-Autrement dit : l'intelligence humaine dans la conception des méthodes perd face à la la force brute.
-
-C'est frustrant pour les chercheurs.
-Mais c'est ce qu'on observe depuis 70 ans.
-
-<!--
-~1 min. Important pour comprendre pourquoi la course au calcul est si intense.
--->
-![bg right:30%](image-21.png)
 
 ---
 
-# 2020 — GPT-3 : prédire le mot suivant, à grande échelle
+# 2020 - GPT-3 : le mot suivant, à grande échelle
 
 **Le principe :** on prend tout internet, et on entraîne un réseau de neurones à prédire le mot suivant dans une phrase.
 
-> « Le chat s'assoit sur le ___ » → **tapis** (ok), **toit** (ok), **président** (bof)
+> « Le chat mange ___ » → **tourner** (non)
+> « Le chat mange ___ » → **le président** (bof)
+> « Le chat mange ___ » → **le gateau** (ok)
+> « Le chat mange ___ » → **la souris** (probable!)
+
 
 Juste de l'autocomplétion. Mais à une échelle gigantesque.
 
-Et ça marche étonnamment bien : le modèle peut répondre à des questions, résumer, traduire, coder.
+Et ça marche étonnamment bien : répondre à des questions, résumer, traduire, coder...
 
 On appelle ça un **grand modèle de langage** (LLM).
 
+C'est aussi souvent désigné par le terme « IA générative »
+
 ---
 
-# 2022 — ChatGPT : l'IA dans la poche
+# 2022 - ChatGPT : l'IA dans la poche
 
 OpenAI propose un **grand modèle de langage** comme GPT3 en ligne.
 
@@ -270,7 +253,7 @@ Scientifiquement, ce n'est pas si nouveau. Mais :
 
 ---
 
-# 2025 — Claude Code, Codex : l'IA qui code
+# 2025 - Claude Code, Codex : l'IA qui code
 
 Aujourd'hui, les chatbots ne font pas que répondre à des questions.
 
@@ -278,14 +261,14 @@ Certains peuvent **écrire du code**, **modifier des fichiers**, **lancer des co
 
 Ces slides ont d'ailleurs été écrites avec l'aide de Claude Code.
 
-On passe de l'IA assistant à l'IA **agent** — elle exécute des tâches, pas juste des réponses.
+On passe de l'IA assistant à l'IA **agent** - elle exécute des tâches, pas juste des réponses.
 
 <!--
 ~1 min. Montrer que ça avance vite. Ces slides en sont un exemple concret.
 Side note c'est un peu cher ces trucs.
 -->
 ![bg left:42.3%](image-22.png)
-<!-- ![bg left](image-23.png) -->
+
 ---
 
 # Alors, c'est quoi l'IA ?
@@ -298,7 +281,7 @@ Dès qu'on sait le faire, ça cesse d'être de l'IA et ça devient juste... de l
 
 C'est pour ça que la définition bouge sans arrêt.
 
-Ce qui compte'hui, ce n'est pas la définition — c'est **ce que ça permet de faire**.
+Ce qui compte'hui, ce n'est pas la définition - c'est **ce que ça permet de faire**.
 
 <!--
 J'exagère un peu. Mais pas tant que ça.
@@ -308,107 +291,8 @@ J'exagère un peu. Mais pas tant que ça.
 
 <!-- _class: lead -->
 
-# Quelques applications dans le monde rural
+# En pratique
 
----
-
-# FarmWise
-
-Des **robots autonomes** qui parcourent les champs et désherbent mécaniquement, plant par plant.
-
-- Pas de produit chimique
-- Reconnaissance visuelle de chaque plante
-- Fonctionne de jour comme de nuit
-
-C'est réel. C'est en service dans des exploitations aujourd'hui.
-![bg left:40%](image-26.png)
-<!--
-~1 min. Montrer une photo/vidéo si possible.
--->
-
----
-
-# Inarix
-
-Startup française : analyse de la **qualité des grains** avec un smartphone.
-
-- Vous prenez une photo de votre récolte
-- L'IA évalue la qualité (taux de protéines, calibre, etc.)
-- Résultat en quelques secondes
-
-Utilisé par des coopératives en France. Pas de matériel spécial, juste votre téléphone.
-![bg right:40%](image-27.png)
-<!--
-~1 min.
--->
-
----
-
-# Pl@ntNet
-
-Projet **français** (INRIA, CIRAD, IRD) : identification de plantes par photo.
-
-- 40 000+ espèces reconnues
-- Gratuit, collaboratif
-- Utile pour identifier adventices, espèces invasives, biodiversité locale
-
-> C'est de la recherche publique française. C'est gratuit. Ça marche.
-
-![bg left:40%](image-28.png)
-
----
-
-# Plantix
-
-Diagnostic des **maladies de cultures** par photo.
-
-- Prenez une photo d'une feuille malade
-- L'appli identifie le problème et propose des traitements
-- 30+ cultures couvertes
-
-Pas un remplacement du technicien. Mais un premier diagnostic immédiat, dans le champ.
-
-<!--
-~1 min.
--->
-
----
-
-# Et aussi...
-
-- **Images satellite** pour le suivi des parcelles (stress hydrique, croissance)
-- **Capteurs connectés** pour l'élevage (détection des chaleurs, boiteries, vêlages)
-- **Prévisions météo locales** de plus en plus fines grâce à l'IA
-- **Optimisation des tournées** de collecte, livraison, transport à la demande
-
-L'IA ne va pas révolutionner l'agriculture du jour au lendemain.
-Mais elle apporte des outils concrets, **dès maintenant**.
-
-<!--
-~1 min 30.
--->
-
----
-
-<!-- _class: lead -->
-
-# En pratique, pour moi et mon personnel ?
-
----
-
-# Une seule manière d'apprendre : utiliser
-
-Pas de cours magistral qui remplace la pratique.
-
-**Essayez.** Posez une question à un chatbot. Demandez-lui de vous aider à rédiger un mail, à résumer un document, à préparer un devis.
-
-Parfois ça marchera, parfois non. C'est normal.
-
-L'important c'est de se faire sa propre idée, c'est bien plus efficace que d'en parller pendant des heures.
-
-<!--
-~1 min.
--->
 
 ---
 
@@ -416,56 +300,151 @@ L'important c'est de se faire sa propre idée, c'est bien plus efficace que d'en
 
 Les bonnes références :
 - **Claude** (Anthropic): je recommande
-- **Gemini** (Google): souvent très bon
+- **Gemini** (Google): bon, en particulier pour générer des images
 - **ChatGPT** (OpenAI): classique, modèle gratuit ok
 
 Attention :
 - Les meilleurs modèles sont souvent payants
 - Ne jugez pas « l'IA » sur un mauvais modèle gratuit
 
+![bg right:20%](image-29.png)
+
+---
+
+# Une seule manière d'apprendre : utiliser
+
+Aucun cours magistral remplacera la pratique.
+
+**Essayez.** Posez une question à un chatbot. Demandez-lui de:
+- rédiger un mail
+- résumer un document
+- préparer un devis
+- suggérer des idées de produits
+- expliquer un concept difficile
+
+
+
+---
+
+# Les bons tuyaux (en vrac)
+
+- Donner toutes les infos nécessaires, pas une de plus.
+
+- Ouvrez des nouvelles conversation ! Les trop longues conversations rendent les modèles confus
+
+- Itérer: pas just "1 question, 1 réponse". Clarifiez, corrigez, réorientez...
+
+- Procéder par étapes: plan global, puis sujets précis, puis résumer
+
+- Tenter de reformuler, poser la question différemment.
+- **Expérimenter**
+
+
 <!--
-~1 min 30. Être honnête : les modèles gratuits sont souvent décevants.
--->
+
+eg clarifications:
+écrit un mail. Non, moins pompeux. corrige ce chiffre il est faux. Bon finalement met le sous forme de message whatsapp ce sera mieux. Bon relis le message pour les fautes d'orthographes
+
+eg etapes:
+J"ai cette idée de business: fais moi un mini business plan
+ok quel marché on vise, il fait quel taille?
+c'est quoi le business modèle?
+Est-ce qu'on a un avantage compétitif?
+Niveau marketing, une idée générale, basique?
+quelles sont les métriques à suivre?
+projections financières initiales on a quoi?
+Résume tout: est-ce que ça tient la route?
+
+
+
+Expérimenter => perdre du temps (les expériences, ça échoue). C'est ok.
+ -->
 
 ---
 
 # Ça ne marche pas à tous les coups
 
 - Parfois le résultat est excellent. Parfois c'est n'importe quoi.
+- Comprendre les bons **et les mauvais** cas d'usage
+  - résumer, reformuler, expliquer: <span style="color:green;">**OUI**</span>.
+  - infos factuelles, calculs, avis objectif: <span style="color:red;">**NON**</span>.
 - Un modèle peut réussir là où un autre échoue.
 - Les modèles **s'améliorent très vite**, ce qui ne marche pas aujourd'hui marchera peut-être dans quelques mois / années.
+
+
 
 Ne pas se décourager trop vite.
 Ne pas faire confiance aveuglément.
 **Vérifier, vérifier, vérifier.**
 
-<!--
-~1 min.
--->
-
 ---
 
 # Pour l'informatique : Claude Code, Codex
 
-Si vous ou votre personnel faites de la gestion informatique (site web, tableurs, bases de données) :
+Si vous / votre personnel faites de l'informatique (site web, bases de données, ...)
 
-- **Claude Code**, **Codex** : l'IA écrit et modifie du code à votre place
-- Pas strictement besoin d'être développeur mais c'est mieux
+- écrit, modifie et *exécute* du code
+- plutôt orienté développeurs
 
 C'est là que le gain de productivité est le plus spectaculaire aujourd'hui.
 
-Par contre c'est cher (15 EUR/mois min, 85 EUR/mois pour une utilisation intensive)
+Un peu cher (15 à 85 EUR/mois/personne)
+
+J'utilise ces modèles au quotidien
+
+![bg left:40%](image-31.png)
+
 
 ---
 
-# Ce qu'il faut retenir
+# Inarix, Plantix
 
-- Pas de magie. C'est un outil. Parfois puissant, parfois décevant.
-- **Il faut essayer** pour se faire une idée.
-- Mais il faut aussi **être prêt** : ceux qui savent s'en servir auront un avantage.
+Analyse de photos automatiques: qualité de graines (Inarix), maladies de cultures (Plantix)
 
-> Ce n'est pas l'IA qui va vous remplacer.
-> C'est quelqu'un qui sait utiliser l'IA.
+- Prendre une photo d'une récolte, d'une feuille malade...
+- L'IA estime des mesures, identifie des problèmes...
+- Résultat en qques secondes. Pas parfait ! Mais un bon début.
+
+Utilisé par des coopératives en France. Pas de matériel spécial, juste un téléphone.
+![bg right:40%](image-27.png)
+
+---
+
+
+# Pl@ntNet
+
+Projet **français** (INRIA, CIRAD, IRD) : identification de plantes par photo.
+
+- 40 000+ espèces reconnues
+- Gratuit, collaboratif
+
+> C'est de la recherche publique française. C'est gratuit. Ça marche.
+
+![bg left:40%](image-28.png)
+
+<!-- 
+Ca se voit que c'est pas un perigourdin qui l'a fait: ca fait pas les champignons
+Ca fait pas les champis, bons vous vous avez pas besoin mais moi ça me servirait bien -->
+
+---
+
+# Qu'est ce que ça change?
+
+Internet a démocratisé l'accès à l'**information**.
+
+L'IA démocratise l'accès à la **compétence**.
+
+→ Pas besoin de chercher un ingénieur spécialisé qui sait  se servir de MongoDB; mon ingé habituel + Claude code feront l'affaire
+
+Les IA sont tout autant accessibles à New York, San Francisco, ou Bergerac !
+
+**Être prêt** : ceux qui savent s'en servir auront un avantage.
+
+> Certains jobs disparaissent, certains restent
+> Mais tous changent
+<!-- 
+
+-->
 
 
 ---
@@ -488,8 +467,10 @@ La plupart des IA sont **spécialisées** :
 
 L'AGI serait une IA **polyvalente**, capable d'apprendre n'importe quoi. 
 
+![bg right:35%](image-33.png)
 <!--
-~1 min 30.
+la def est floue mais généralement c'est
+"non mais ton truc là il est """intelligent""", mais bon pas vraiment, pas comme toi et moi tu vois"
 -->
 
 ---
@@ -498,19 +479,17 @@ L'AGI serait une IA **polyvalente**, capable d'apprendre n'importe quoi.
 
 Honnêtement : **personne ne sait.**
 
-- Certains disent « dans 5 ans ». D'autres disent « peut-être jamais ». D'autres disent « elle est déjà là »
+- Certains disent « elle est déjà là ». D'autres disent « peut-être jamais ». D'autres disent « dans 5 ans ».
 - Je ne pense pas que ce soit le cas pour les modèles actuels.
-- Les progrès sont rapides, mais les obstacles fondamentaux, et même l'objectif lui-même, restent mal compris.
+- Les progrès sont rapides, mais les obstacles fondamentaux et, même, l'objectif lui-même, restent mal compris.
 
 
-
-<!--
-~1 min 30.
--->
 
 ---
 
-# Conscience ? Terminator ?
+# Conscience, ou science de cons?
+
+Question beaucoup plus philosophique.
 
 **Est-ce que les modèles actuels sont conscients ?**
 Je pense que non. C'est débatable.
@@ -518,11 +497,23 @@ Je pense que non. C'est débatable.
 **Est-ce que c'est possible un jour ?**
 Je pense que oui. C'est débatable.
 
-**Terminator ?**
-Non. Les risques réels de l'IA sont plus banals : biais, désinformation, concentration du pouvoir, surveillance.
+**Quels sont les risques ?**
+C'est pas un film de science-fiction. Les risques sont plus banals : biais, désinformation, concentration du pouvoir...
 
 Les vrais dangers sont ennuyeux, pas spectaculaires.
 C'est pour ça qu'on en parle moins.
+
+![bg right:25%](image-34.png)
+---
+
+# Pour conclure
+
+- La définition de "IA" est **floue**, et elle a variée
+- La vague actuelle est celle des **modèles de langage (LLM)**: des machines à prédire le mot manquant.
+- On les crée par **apprentissage machine (ML)**: en leur montrant des données.
+- Il faut utiliser pour apprendre. **Expérimentez!**
+- On se fait facilement duper par ce qui *a l'air* intelligent. **Vérifiez!**
+- Nos IA ne sont pas consciente. **Mais ça pourrait arriver un jour!**
 
 
 ---
@@ -532,3 +523,10 @@ C'est pour ça qu'on en parle moins.
 # Merci
 
 ### Questions ?
+
+
+
+<!-- 
+questions possibles:
+Revenir sur, et définir, l'IA générative
+ -->
