@@ -1,0 +1,150 @@
+### Ce que c'est vraiment, à quoi ça sert, et ce que ça change pour vous
+
+~30 sec. Se présenter rapidement et lancer.
+
+---
+
+
+
+---
+
+Rapidement, petit sondage à main levée, qui sont ceux parmi vous qui savent ce que c'est que l'IA?
+...
+Mauvaise réponse. Moi-même je suis pas sûr de savoir.
+
+---
+
+
+
+---
+
+Si on peut pas définir ce mot, malheureusement, il va falloir aller voir *derrière* le mot. Comprendre le sens.
+Et pour ça, un peu d'histoire
+
+---
+
+C'est la première fois qu'on parle d'IA
+
+McCarthy s'est dit "si j'appelle ça de la cybernétique, il y a Norbert là le grand guru de la cybernétique qui va venir m'emmerder. Donc je vais créer un autre nom.
+
+---
+
+L'"effet ELIZA" à l'époque
+
+---
+
+On est dans une phase d'enthousiasme en ce moment. L'histoire invite à la prudence.
+
+A une époque, les startups préféraient pas dire "intelligence artificielle", ou "robotique" parce que ils avaient l'air d'illuminés qui promettent de la science-fiction impossible. Personne investit dans un illuminé
+
+Honnêteté sur les cycles. Ne pas prétendre que « cette fois c'est différent ».
+Mais ça veut pas dire que ça va forcément se crasher!
+
+---
+
+~1 min. Transition vers le machine learning.
+
+---
+
+~1 min 30. C'est le concept clé de la présentation.
+
+---
+
+~1 min. Pas besoin de rentrer dans les détails techniques.
+insiste sur "vaguement"
+
+---
+
+
+
+---
+
+
+
+---
+
+
+
+---
+
+~1 min. Montrer que ça avance vite. Ces slides en sont un exemple concret.
+Side note c'est un peu cher ces trucs.
+
+---
+
+J'exagère un peu. Mais pas tant que ça.
+
+---
+
+
+
+---
+
+
+
+---
+
+
+
+---
+
+eg clarifications:
+écrit un mail. Non, moins pompeux. corrige ce chiffre il est faux. Bon finalement met le sous forme de message whatsapp ce sera mieux. Bon relis le message pour les fautes d'orthographes
+
+eg etapes:
+J"ai cette idée de business: fais moi un mini business plan
+ok quel marché on vise, il fait quel taille?
+c'est quoi le business modèle?
+Est-ce qu'on a un avantage compétitif?
+Niveau marketing, une idée générale, basique?
+quelles sont les métriques à suivre?
+projections financières initiales on a quoi?
+Résume tout: est-ce que ça tient la route?
+
+
+
+Expérimenter => perdre du temps (les expériences, ça échoue). C'est ok.
+
+---
+
+
+
+---
+
+
+
+---
+
+
+
+---
+
+Ca se voit que c'est pas un perigourdin qui l'a fait: ca fait pas les champignons
+Ca fait pas les champis, bons vous vous avez pas besoin mais moi ça me servirait bien
+
+---
+
+
+
+---
+
+
+
+---
+
+la def est floue mais généralement c'est
+"non mais ton truc là il est """intelligent""", mais bon pas vraiment, pas comme toi et moi tu vois"
+
+---
+
+
+
+---
+
+
+
+---
+
+questions possibles:
+Revenir sur, et définir, l'IA générative
+Est-ce qu'on est dans un été de l'IA?
