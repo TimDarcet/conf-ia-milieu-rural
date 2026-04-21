@@ -529,6 +529,7 @@ C'est pour ça qu'on en parle moins.
 <!-- 
 questions possibles:
 Revenir sur, et définir, l'IA générative
-Est-ce qu'on est dans un été de l'IA?
+Est-ce qu'on est dans un été de l'IA, est-ce que ça va retomber?
+
 
  -->
